@@ -1,33 +1,38 @@
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
+# Compiler output 
+*/bin
+*/obj
+*/obj/*
+PrecompiledWeb
 
-# Precompiled Headers
-*.gch
-*.pch
+# Per-user data
+*/*.csproj.user
+*.suo
+*.sln.cache
+*.ReSharper.user
+*.TeamCity.user
+*.sln.DotSettings.user
+_ReSharper.*
+*.docstates
+*.csproj.ReSharper
+*.dotcover
+*.ncrunch*
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# NuGet Packages
+*.nupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+!packages-incoming/*
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# GIT / Merge files
+*.orig
 
-# Executables
+*.user
 *.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
+*.cache
+*.pdb
+WpfApplicationWithIoC/WpfApplicationWithIoC/obj/*
+WpfApplicationWithIoC/WpfApplicationWithIoC/bin/*
