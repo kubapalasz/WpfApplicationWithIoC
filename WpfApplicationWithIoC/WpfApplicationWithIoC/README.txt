@@ -1,0 +1,1 @@
+﻿Ninject: http://stackoverflow.com/questions/25366291/how-to-handle-dependency-injection-in-a-wpf-mvvm-application
